@@ -1,0 +1,97 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: url(./images/bg-intro-desktop.png);
+    background-color: rgba(238, 115, 71, 0.89);
+}
+main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.header{
+    /* border: 2px solid black; */
+    width: 400px;
+    height: 200px;
+    padding: 5px;
+    margin-top: 50px;
+    color: whitesmoke;
+}
+.header h1{
+    width: 250px;
+    font-weight: bolder;
+    font-size: 2em;
+}
+.header p{
+    padding-top: 20px;
+}
+.hero1{
+    border: none;
+   padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+     width: 444px;
+     margin-left: 10px;
+     background-color: rgb(49, 0, 128);
+     color: whitesmoke;
+}
+
+form{
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    max-width: 450px;
+    min-width: 100px;
+    height: fit-content; */
+}
+
+input{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    max-width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    text-transform: capitalize;
+    border-color: rgb(204, 195, 195);
+    position: relative;
+}
+button{
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: rgb(104, 226, 104);
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+}
+span{
+    color: red;
+    text-transform: capitalize;
+}
+.bottom{
+    text-align: center;
+    font-size: 0.70rem;
+    padding-top: 10px;
+    color: grey;
+}
