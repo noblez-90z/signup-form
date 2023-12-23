@@ -11,7 +11,7 @@
 </head>
 <body>
   <main>
-    <div class="header">
+    <div class="header" >
       <h1>Learn to code by watching others</h1>
       <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
         but understanding how developers think is invaluable.</p>
@@ -19,21 +19,24 @@
     <div class="hero">
       <div class="hero1"><p><strong>Try it free 7 days</strong>then $20/mo. thereafter</p>
       </div>
-      <form action="frontend mentor" method="post">
+    <form action="/" id="myform" onsubmit="return validateForm()">
         <label for="Firstname">
-          <input type="text" id="First name"  placeholder="First Name"  required>
-          
+          <input type="text" id="Firstname"  placeholder="First Name" >
+          <span id="Firstname-error" class="error"></span>
         </label>
         <label for="Lastname">
-          <input type="text" id="Lastname"  placeholder="Last Name" required>
+          <input type="text" id="Lastname"  placeholder="Last Name" >
+          <span id="Lastname-error" class="error"></span>
         </label>
         <label for="Email">
-          <input type="email" id="email"  placeholder="Email Address" required>
+          <input type="email" id="email"  placeholder="Email Address" >
+          <span id="email-error" class="error"></span>
         </label>
         <label for="Password">
-          <input type="text" id="Password"  placeholder="Password" required>
-        </label>
-        <button>cliam Your free trial</button>
+          <input type="text" id="Password"  placeholder="Password" >
+          <span id="Password-error" class="error"></span>
+        </label><br>
+        <button type="submit">cliam Your free trial</button>
         <p class="bottom">by clicking the button you are agreeing to our <span>terms and Services</span></p>
       </form>
     </div>
@@ -44,5 +47,6 @@
       Coded by <a href="#">Joel Noblez</a>.
     </p>
   </footer>
+  <script src="./design/main.js"></script>
 </body>
 </html>
